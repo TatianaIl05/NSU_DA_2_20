@@ -39,6 +39,8 @@ def show_plots(df, x_name, y_name, hue_name):
 def main(dataset_name):
     """
     Main function of the project
+    Parameters:
+        dataset_name - name of the used dataset
     """
     if dataset_name == "iris": df = load_dataset()
     else: raise ValueError("Неизвестный датасет")
